@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Client-Side Support</title>
+  </head>
+  <body>
+    <h1>Hello, <%= name %>!</h1>
+    
+    <script src="/client.js">
+        const name = '<%= name %>';
+    </script>
+  </body>
+</html>
